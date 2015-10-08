@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>let's listen to...</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="header"></div>
+
+<div>
+  <div class="row">
+  	<form class="buttons">
+	  	<input type="text" id="mainSearch" placeholder="what do you want to hear?">
+	    <input type="button" id="searchButton" onclick="search();">
+	</form>
+  </div>
+</div>
+
+<div>
+	<table id="headers">
+		<tr>
+			<th>song</th>
+			<th>artist</th>
+			<th>album</th>
+		</tr>
+	</table>
+	<table id="results">
+</div>
+
+
+<div id="footer">
+	<form id="next">
+		<input type="button" id="nextButton" value="next" onclick="searchNext();">
+	</form>
+</div>
+
+
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

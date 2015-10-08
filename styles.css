@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	font-family:Georgia;
+}
+
+#header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#mainSearch {
+	text-align: left;
+	width: 90%;
+	font-size: 60pt;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 80%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom-color:black;
+	outline:none;
+
+}
+
+button {
+	outline:none;
+	border:none;
+	background-color: white;
+	cursor:pointer;
+}
+
+button:hover {
+	font-weight: bold;
+}
+
+#searchButton {
+	background-color: white;
+	outline:none;
+	border: none;
+	background-image: url("images/arrow.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110px;
+	cursor: pointer;
+	height: 100px;
+	width: 100px;
+	vertical-align:top;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+table {
+	width: 90%;
+	text-align: left;
+	display: none;
+	table-layout: fixed;
+}
+
+#headers {
+	padding-top: 20px;
+}
+
+#results {
+	
+}
+
+.song {
+	cursor: pointer;
+}
+
+#choiceButton {
+	outline:none;
+	border:none;
+
+}
+
+#footer {
+	position: fixed;
+	bottom: 10px;
+	left: 80%;
+}
+
+#nextButton {
+	display: none;
+	left: 90%;
+	font-size: 30px;
+	outline:none;
+	border:none;
+	background-color: white;
+	cursor: pointer;
+}
